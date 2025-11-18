@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class ToggleHighlightOnObj : MonoBehaviour
 {
-    private bool isClicked = false;
+    public bool isClicked = false;
+    public GameObject myManagerObj;
+
+    private ManageGameObjectList myManagerObjListScript;
     void Start()
     {
-      transform.GetComponent<Outline>().enabled = false;    
+      transform.GetComponent<Outline>().enabled = false;
+
+      myManagerObj = GameObject.Find("Manager"); 
+      myManagerObjListScript = myManagerObj.transform.GetComponent<ManageGameObjectList>();   
     }
 
     // Update is called once per frame
@@ -25,10 +31,12 @@ public class ToggleHighlightOnObj : MonoBehaviour
         if (isClicked)
         {
             transform.GetComponent<Outline>().enabled = true;
+            myManagerObjListScript.myObjList.Add(transform.gameObject);
         }
         else
         {
             transform.GetComponent<Outline>().enabled = false;
+            myManagerObjListScript.myObjList.Remove(transform.gameObject);
         }
     }
 }
