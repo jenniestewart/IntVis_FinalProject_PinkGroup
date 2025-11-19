@@ -279,11 +279,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 380900007}
   toggleTransition: 1
   graphic: {fileID: 1485192405}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 624577997}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &380900005
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +371,7 @@ GameObject:
   - component: {fileID: 624577994}
   - component: {fileID: 624577996}
   - component: {fileID: 624577995}
+  - component: {fileID: 624577997}
   m_Layer: 5
   m_Name: Togglegroup
   m_TagString: Untagged
@@ -439,6 +440,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624577993}
   m_CullTransparentMesh: 1
+--- !u!114 &624577997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624577993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 1
 --- !u!1 &689886001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275, y: -379.81076}
+  m_AnchoredPosition: {x: 241, y: -379.81076}
   m_SizeDelta: {x: 265.3211, y: 169.0118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1457143638
@@ -1541,11 +1555,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1668653377}
   toggleTransition: 1
   graphic: {fileID: 1951940704}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 624577997}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1485192403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,11 +2065,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 718777793}
   toggleTransition: 1
   graphic: {fileID: 1340659746}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 624577997}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1668653375
 GameObject:
   m_ObjectHideFlags: 0
@@ -3299,11 +3313,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1988100602}
   toggleTransition: 1
   graphic: {fileID: 1075249767}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 624577997}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &2113449497
 GameObject:
   m_ObjectHideFlags: 0
