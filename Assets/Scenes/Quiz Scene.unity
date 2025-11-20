@@ -999,7 +999,6 @@ RectTransform:
   - {fileID: 1877242949}
   - {fileID: 1756167438}
   - {fileID: 624577994}
-  - {fileID: 1593490746}
   m_Father: {fileID: 1782052642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1884,7 +1883,7 @@ GameObject:
   - component: {fileID: 1593490748}
   - component: {fileID: 1593490747}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Feedback Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1897,12 +1896,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593490745}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 833592492}
+  m_Father: {fileID: 1782052642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6666042, y: 0.4663334}
   m_AnchorMax: {x: 1, y: 1}
@@ -2894,6 +2893,7 @@ RectTransform:
   - {fileID: 1112147284}
   - {fileID: 1983054235}
   - {fileID: 833592492}
+  - {fileID: 1593490746}
   - {fileID: 1591245462}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
