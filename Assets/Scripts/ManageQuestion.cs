@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using TMPro;
 
 public class ManageQuestion : MonoBehaviour
 {
@@ -9,14 +11,12 @@ public class ManageQuestion : MonoBehaviour
 
     public GameObject correctResponse; 
 
-    [SerializeField]
-     private GameObject postiveFeedback;
+ 
+    public GameObject postiveFeedback;
      
-     [SerializeField]
-     private GameObject negativeFeedback;
+    public GameObject negativeFeedback;
 
-     [SerializeField]
-     private ToggleGroup myToggleGroup;
+    public ToggleGroup myToggleGroup;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -134,7 +134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &125091427
 Transform:
   m_ObjectHideFlags: 0
@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 125091426}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -152,7 +152,7 @@ Transform:
   - {fileID: 156696948}
   - {fileID: 1011766012}
   - {fileID: 1492711456}
-  m_Father: {fileID: 1782052642}
+  m_Father: {fileID: 833592492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &156696947
 GameObject:
@@ -1313,6 +1313,8 @@ RectTransform:
   - {fileID: 1877242949}
   - {fileID: 624577994}
   - {fileID: 1756167438}
+  - {fileID: 125091427}
+  - {fileID: 1593490746}
   m_Father: {fileID: 1782052642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1956,7 +1958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1112147284
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2783,11 +2785,11 @@ RectTransform:
   m_Children:
   - {fileID: 1024212247}
   - {fileID: 1665906528}
-  m_Father: {fileID: 1782052642}
+  m_Father: {fileID: 833592492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -361.57202, y: -31.83374}
+  m_AnchoredPosition: {x: -367.57202, y: -31.83374}
   m_SizeDelta: {x: 640.0001, y: 423.0869}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593490747
@@ -3753,8 +3755,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.24328054, g: 0.37263867, b: 0.7264151, a: 1}
+    m_HighlightedColor: {r: 0.10933607, g: 0.16764943, b: 0.8584906, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -3923,9 +3925,7 @@ RectTransform:
   - {fileID: 1112147284}
   - {fileID: 1983054235}
   - {fileID: 833592492}
-  - {fileID: 125091427}
   - {fileID: 1591245462}
-  - {fileID: 1593490746}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4361,7 +4361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1983054235
 RectTransform:
   m_ObjectHideFlags: 0
