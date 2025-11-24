@@ -39,4 +39,11 @@ public class ToggleHighlightOnObj : MonoBehaviour
             myManagerObjListScript.myObjList.Remove(transform.gameObject);
         }
     }
+
+    public void OnClickHideBt()
+    {
+        isClicked = false;
+        transform.GetComponent<Outline>().enabled = false;
+        myManagerObjListScript.myObjList.Remove(transform.gameObject);
+    }
 }
