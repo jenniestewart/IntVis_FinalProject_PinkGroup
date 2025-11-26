@@ -4,11 +4,11 @@ using UnityEngine.UI;
 
 public class Manage_Slider : MonoBehaviour
 {// Start is called once before the first execution of Update after the MonoBehaviour is created
-    private Slider slider;
+    public Slider slider;
     public List<GameObject> teethObj;
     void Start()
     {
-        Slider slider = GetComponent<Slider>();
+        slider = GetComponent<Slider>();
     }
 
     // Update is called once per frame
