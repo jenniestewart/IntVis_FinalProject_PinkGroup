@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using TMPro;
+using System.Linq;
 
 public class ManageQuestion : MonoBehaviour
 {
@@ -8,15 +11,12 @@ public class ManageQuestion : MonoBehaviour
     public GameObject userResponse; 
 
     public GameObject correctResponse; 
-
-    [SerializeField]
-     private GameObject postiveFeedback;
+ 
+    public GameObject positiveFeedback;
      
-     [SerializeField]
-     private GameObject negativeFeedback;
+    public GameObject negativeFeedback;
 
-     [SerializeField]
-     private ToggleGroup myToggleGroup;
+    public ToggleGroup myToggleGroup;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,18 +34,24 @@ public class ManageQuestion : MonoBehaviour
     {
         //Compare user answer vs correct answer
         Toggle selectedToggle = myToggleGroup.ActiveToggles().FirstOrDefault();
-        userResponse = selectedToggle.GameObject; 
+        userResponse = selectedToggle.gameObject; 
 
-        if(userResponse == correctResponse)
+        //Set All toggles as non interactable
+        for (int i = 0; i < myToggleGroup.transform.childCount; i++)
+        {
+            myToggleGroup.transform.GetChild(i).GetComponent<Toggle>().interactable = false;
+        }
+
+        if (userResponse == correctResponse)
         {
             //Show Positive Feedback
             positiveFeedback.SetActive(true);
 
-
+            transform.parent.GetComponent<ManageQuiz>().score += 1;
         }
         else
         {
-            //Show Negative Feedback 
+            //Show Negative Feedback
             negativeFeedback.SetActive(true);
         }
     }
