@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -235.72, y: 26}
+  m_AnchoredPosition: {x: -230, y: 26}
   m_SizeDelta: {x: 1178.9, y: 618.0898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30045364
@@ -368,7 +368,7 @@ Animator:
   m_GameObject: {fileID: 44107607}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fd8926c6e9aba3c4a92e706559c89bb3, type: 2}
+  m_Controller: {fileID: 9100000, guid: b95c5266022484f45ad8f4ebd2c3e45f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -743,7 +743,7 @@ Animator:
   m_GameObject: {fileID: 350119459}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6ffb6e118cc940f488a569d80852a85d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b95c5266022484f45ad8f4ebd2c3e45f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1127,7 +1127,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TEETH!
+  m_text: 'TEETH
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -1216,7 +1218,7 @@ Animator:
   m_GameObject: {fileID: 602428629}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2460c17701eab5444a95511a370ce7cf, type: 2}
+  m_Controller: {fileID: 9100000, guid: b95c5266022484f45ad8f4ebd2c3e45f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1255,7 +1257,7 @@ RectTransform:
   m_GameObject: {fileID: 774453465}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0125, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 551667214}
