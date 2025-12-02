@@ -19988,7 +19988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.44867, y: -11.2174}
+  m_AnchoredPosition: {x: -49.1, y: -9.4}
   m_SizeDelta: {x: 280.8257, y: 175.4191}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1073029016
@@ -20011,7 +20011,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is how you play the quiz.......
+  m_text: 'How to play:
+
+    There are 6 questions to answer.
+
+    Select the answer
+    you think is correct.
+
+    Click confirm to lock in your answer and then Next
+    to move onto the next question.
+
+    You will recieve your score at the end. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -20514,7 +20524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1112147284
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29796,7 +29806,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "How to play:\nThere are 6 questions to answer.\nSelect the answer you
-    think is correct.\nAt the end you will receive your score. \n"
+    think is correct.\nClick confirm to lock in your answer and then Next to move
+    onto the next question.\nYou will recieve your score at the end. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -29823,8 +29834,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -34681,7 +34692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1983054235
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35192,7 +35203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2011172247
 RectTransform:
   m_ObjectHideFlags: 0
