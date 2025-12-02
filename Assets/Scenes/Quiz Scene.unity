@@ -1610,7 +1610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &82767492
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3724,7 +3724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 12, y: -0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &169080627
@@ -3747,9 +3747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
-
-'
+  m_text: INCORRECT ANSWER!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -4919,7 +4917,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &239553721
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6665,7 +6663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 13, y: 5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &332812416
@@ -6688,7 +6686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
+  m_text: 'INCORRECT ANSWER!
 
 '
   m_isRightToLeft: 0
@@ -11312,7 +11310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &600038207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15212,7 +15210,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833592491}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15661,7 +15659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 13, y: 3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &855760964
@@ -15684,7 +15682,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
+  m_text: 'INCORRECT ANSWER!
 
 '
   m_isRightToLeft: 0
@@ -16644,7 +16642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 13, y: -0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &890321745
@@ -16667,9 +16665,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
-
-'
+  m_text: INCORRECT ANSWER!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -17662,7 +17658,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 14, y: 3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940935809
@@ -17685,7 +17681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
+  m_text: 'INCORRECT ANSWER!
 
 '
   m_isRightToLeft: 0
@@ -20518,7 +20514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1112147284
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24839,7 +24835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1393233640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25689,7 +25685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 13, y: 1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451650687
@@ -25712,9 +25708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
-
-'
+  m_text: INCORRECT ANSWER!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -27310,7 +27304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1564646680
 AudioSource:
   m_ObjectHideFlags: 0
@@ -27578,7 +27572,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1591245462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31406,7 +31400,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 14, y: 3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787619667
@@ -31429,7 +31423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
+  m_text: 'INCORRECT ANSWER!
 
 '
   m_isRightToLeft: 0
@@ -32254,7 +32248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.3, y: -8}
+  m_AnchoredPosition: {x: 13, y: 4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1846622643
@@ -32277,7 +32271,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WRONG
+  m_text: 'INCORRECT ANSWER!
 
 '
   m_isRightToLeft: 0
@@ -35198,7 +35192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2011172247
 RectTransform:
   m_ObjectHideFlags: 0
