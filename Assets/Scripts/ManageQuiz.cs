@@ -5,7 +5,7 @@ using TMPro;
 
 public class ManageQuiz : MonoBehaviour
 {
-    public int maxQuestionIndex = 3;
+    public int maxQuestionIndex = 6;
 
     public int myQuestionIndex = 0;
 
