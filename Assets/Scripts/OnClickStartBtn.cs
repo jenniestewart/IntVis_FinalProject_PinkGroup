@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class OnClickStartBtn : MonoBehaviour
 {
     public List <GameObject> animatingObj;
-    Animator animator;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +18,7 @@ public class OnClickStartBtn : MonoBehaviour
     {
         for (int i = 0; i < animatingObj.Count; i++ )
         {
-             animator = animatingObj(i).GetComponenet<Animator>();
+             Animator animator = animatingObj[i].GetComponent<Animator>();
             animator.SetBool("ActivateAnimation", true);
         }
     }
