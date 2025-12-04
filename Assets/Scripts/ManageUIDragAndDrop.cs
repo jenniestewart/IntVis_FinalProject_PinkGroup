@@ -24,7 +24,7 @@ public class ManageUIDragAndDrop : MonoBehaviour
         
     }
 
-    public void OnStartCliking()
+    public void OnPointerDown()
     {
         delta = Input.mousePosition - transform.position;
         transform.position = Input.mousePosition - delta;
