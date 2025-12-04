@@ -411,6 +411,8 @@ GameObject:
   - component: {fileID: 114852523}
   - component: {fileID: 114852525}
   - component: {fileID: 114852524}
+  - component: {fileID: 114852526}
+  - component: {fileID: 114852527}
   m_Layer: 5
   m_Name: Canine type
   m_TagString: Untagged
@@ -476,6 +478,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114852522}
   m_CullTransparentMesh: 1
+--- !u!61 &114852526
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114852522}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: a5c1fb0950596504dac7c87cbef36912, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.11267853, y: 0.26251984}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 99.74849, y: 100.219925}
+  m_EdgeRadius: 0
+--- !u!114 &114852527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114852522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6a636e49ad6c24cb3ac6696f2df227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObj: {fileID: 114852522}
 --- !u!1 &203844586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,6 +1155,7 @@ GameObject:
   - component: {fileID: 496146246}
   - component: {fileID: 496146248}
   - component: {fileID: 496146247}
+  - component: {fileID: 496146249}
   m_Layer: 5
   m_Name: Molar type
   m_TagString: Untagged
@@ -1118,7 +1180,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 490, y: -457}
+  m_AnchoredPosition: {x: 614.99994, y: -457}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496146247
@@ -1159,6 +1221,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496146245}
   m_CullTransparentMesh: 1
+--- !u!61 &496146249
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496146245}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: a5c1fb0950596504dac7c87cbef36912, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.056167603, y: 0.32961655}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 100.02559, y: 99.34092}
+  m_EdgeRadius: 0
 --- !u!1 &551590917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1648,7 @@ GameObject:
   - component: {fileID: 611962979}
   - component: {fileID: 611962981}
   - component: {fileID: 611962980}
+  - component: {fileID: 611962982}
   m_Layer: 5
   m_Name: Premolar type
   m_TagString: Untagged
@@ -1564,7 +1673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146, y: -457}
+  m_AnchoredPosition: {x: 183, y: -457}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611962980
@@ -1605,6 +1714,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611962978}
   m_CullTransparentMesh: 1
+--- !u!61 &611962982
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611962978}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: a5c1fb0950596504dac7c87cbef36912, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.077661514, y: 0.08131409}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 99.34683, y: 99.56839}
+  m_EdgeRadius: 0
 --- !u!1 &702776228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,8 +1911,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757155859}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 144.64476}
-  m_LocalScale: {x: 341.03998, y: 341.03998, z: 341.03998}
+  m_LocalPosition: {x: 0, y: 0, z: 144.64}
+  m_LocalScale: {x: 160.17624, y: 160.17624, z: 160.17624}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1774800521}
@@ -1836,9 +1991,29 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 757155862}
           m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
           m_MethodName: OnPointerDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 757155862}
+          m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
+          m_MethodName: OnDropObj
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2531,7 +2706,7 @@ RectTransform:
   m_GameObject: {fileID: 1190021065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 144.64476}
-  m_LocalScale: {x: 341.04, y: 341.04, z: 341.04}
+  m_LocalScale: {x: 169.29567, y: 169.29567, z: 169.29567}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1774800521}
@@ -2644,9 +2819,29 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 1190021071}
           m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
           m_MethodName: OnPointerDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1190021071}
+          m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
+          m_MethodName: OnDropObj
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2668,7 +2863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6a636e49ad6c24cb3ac6696f2df227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObj: {fileID: 1190021065}
+  targetObj: {fileID: 1846703279}
 --- !u!54 &1190021072
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3318,15 +3513,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709853480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 350, y: 337.49802, z: 350}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000018342}
+  m_LocalScale: {x: 139.64299, y: 134.65495, z: 139.64299}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1774800521}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -547, y: -2.0981}
+  m_AnchoredPosition: {x: -547, y: -9.119096}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!136 &1709853483
@@ -3461,9 +3656,29 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 1709853488}
           m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
           m_MethodName: OnPointerDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1709853488}
+          m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
+          m_MethodName: OnDropObj
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3485,7 +3700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6a636e49ad6c24cb3ac6696f2df227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObj: {fileID: 1709853480}
+  targetObj: {fileID: 496146245}
 --- !u!1 &1749668086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3725,8 +3940,8 @@ RectTransform:
   - {fileID: 757155860}
   - {fileID: 1846703280}
   - {fileID: 114852523}
-  - {fileID: 611962979}
   - {fileID: 496146246}
+  - {fileID: 611962979}
   - {fileID: 576639245}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3918,6 +4133,9 @@ GameObject:
   - component: {fileID: 1846703280}
   - component: {fileID: 1846703282}
   - component: {fileID: 1846703281}
+  - component: {fileID: 1846703284}
+  - component: {fileID: 1846703283}
+  - component: {fileID: 1846703285}
   m_Layer: 5
   m_Name: Incisor type
   m_TagString: Untagged
@@ -3983,6 +4201,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846703279}
   m_CullTransparentMesh: 1
+--- !u!61 &1846703283
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846703279}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: a5c1fb0950596504dac7c87cbef36912, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.14864159, y: 0.27156448}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 99.89433, y: 99.91775}
+  m_EdgeRadius: 0
+--- !u!114 &1846703284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846703279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6a636e49ad6c24cb3ac6696f2df227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObj: {fileID: 1846703279}
+--- !u!114 &1846703285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846703279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!1 &1904182483
 GameObject:
   m_ObjectHideFlags: 0
@@ -4286,7 +4576,7 @@ RectTransform:
   m_GameObject: {fileID: 1985550515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 350, y: 350, z: 350}
+  m_LocalScale: {x: 124.194, y: 124.194, z: 124.194}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1774800521}
@@ -4428,9 +4718,29 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 1985550523}
           m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
           m_MethodName: OnPointerDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1985550523}
+          m_TargetAssemblyTypeName: ManageUIDragAndDrop, Assembly-CSharp
+          m_MethodName: OnDropObj
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4452,7 +4762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6a636e49ad6c24cb3ac6696f2df227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObj: {fileID: 1985550515}
+  targetObj: {fileID: 611962978}
 --- !u!1 &2023767843
 GameObject:
   m_ObjectHideFlags: 0
