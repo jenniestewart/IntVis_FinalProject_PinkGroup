@@ -8299,7 +8299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &423435206
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10997,7 +10997,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Causes teeth to fall out
+  m_text: '
 
 
 '
@@ -23289,7 +23289,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The pressure of sucking the causes teeth to move forward
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -26665,7 +26665,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Why does thumb sucking cause protrusion of front teeth?
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
@@ -29517,7 +29517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Germs on thumb cause teeth to push forward
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
   m_sharedMaterial: {fileID: 8594884829608921048, guid: eada5a5a82554fd49b4d66ff3d67b754, type: 2}
