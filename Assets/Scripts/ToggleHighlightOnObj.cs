@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,8 +25,15 @@ public class ToggleHighlightOnObj : MonoBehaviour
 
     void OnMouseDown()
     {
+         
+        OnHighlightClick();
+    }
+
+    public void OnHighlightClick()
+    {
         Debug.Log("Click On Object" + transform.name);
-        
+
+        myManagerObjListScript.RemoveAllHightlight(transform.gameObject);
         isClicked = !isClicked;
         
         if (isClicked)
@@ -37,6 +45,7 @@ public class ToggleHighlightOnObj : MonoBehaviour
         {
             transform.GetComponent<Outline>().enabled = false;
             myManagerObjListScript.myObjList.Remove(transform.gameObject);
+            Debug.Log("Not Clicked");
         }
     }
 
