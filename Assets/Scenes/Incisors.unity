@@ -3206,7 +3206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!4 &6120261966275240590
 Transform:
   m_ObjectHideFlags: 0
@@ -3344,7 +3344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!4 &6502759035953380746
 Transform:
   m_ObjectHideFlags: 0
@@ -3413,7 +3413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!4 &6524620301227707856
 Transform:
   m_ObjectHideFlags: 0
@@ -3527,7 +3527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!1 &6891731703503206452
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,7 +3650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!1 &7938882668651379876
 GameObject:
   m_ObjectHideFlags: 0
@@ -3725,7 +3725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!33 &8809328743878285020
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3787,7 +3787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!1 &9161839342452252676
 GameObject:
   m_ObjectHideFlags: 0
@@ -3862,7 +3862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1182851792}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

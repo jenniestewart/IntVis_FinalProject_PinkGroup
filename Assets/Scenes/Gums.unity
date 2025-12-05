@@ -2022,7 +2022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1843793964}
 --- !u!1 &8537138016859316002
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,7 +2105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 1843793964}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

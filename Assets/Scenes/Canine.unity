@@ -2492,7 +2492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 44655791}
 --- !u!33 &5799231499467024700
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2635,7 +2635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 44655791}
 --- !u!33 &8502451774273759494
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2696,7 +2696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 44655791}
 --- !u!64 &8858508960599841837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isClicked: 0
-  myManagerObj: {fileID: 0}
+  myManagerObj: {fileID: 44655791}
 --- !u!114 &8860979469251682364
 MonoBehaviour:
   m_ObjectHideFlags: 0
