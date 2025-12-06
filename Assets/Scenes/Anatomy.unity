@@ -1155,7 +1155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: -278}
+  m_AnchoredPosition: {x: -610, y: -228}
   m_SizeDelta: {x: 129.6795, y: 51.5663}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &250565977
@@ -3221,8 +3221,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -332, y: -184.83319}
-  m_SizeDelta: {x: 637.4612, y: 395.0988}
+  m_AnchoredPosition: {x: -377.3059, y: -80.877014}
+  m_SizeDelta: {x: 699.4796, y: 561.6513}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &911294338
 GameObject:
@@ -5470,11 +5470,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Nutrients:                     ___________
-
-    xxxxxxxxxxxxxx
-
-    xxxxxxxxxxxxxx'
+  m_text: "Nutrients:  \nThe pulp contains arteries\nveins and nerves that provide\nthe
+    tooth with nutrients   _____________\nthrough blood and the nerves\ngives the
+    tooth the ability to \nfeel pain. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5539,7 +5537,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -231.27515, y: -64.084045, z: -353.07556, w: -206.6329}
+  m_margin: {x: -300.65213, y: -227.17957, z: -353.07556, w: -206.6329}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
