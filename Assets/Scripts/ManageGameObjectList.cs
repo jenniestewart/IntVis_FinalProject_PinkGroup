@@ -40,4 +40,14 @@ public class ManageGameObjectList : MonoBehaviour
             
         }
     }
+
+    public void RemoveAllHightlight(GameObject obj)
+    {
+         for (int i = 0; i < transform.childCount; i++)
+            {
+                if (transform.gameObject != obj)
+                    transform.GetChild(i).GetComponent<ToggleHighlightOnObj>().OnClickHideBt();
+                
+            }
+    }
 }
