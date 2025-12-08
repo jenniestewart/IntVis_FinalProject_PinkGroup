@@ -8,3 +8,6 @@ public class rotation : MonoBehaviour
        transform.Rotate(Vector3.up, speedOfRotation * Time.deltaTime);
     }
 }
+
+
+//https://www.codespeedy.com/infinite-rotation-of-a-game-object-in-unity-3d-c/#google_vignette
