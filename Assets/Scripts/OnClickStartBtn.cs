@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 
 
 public class OnClickStartBtn : MonoBehaviour
 {
     public List <GameObject> animatingObj;
-    
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
