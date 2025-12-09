@@ -3,12 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-   
-    void NextScene()
-    {
-        // Loads a new Scene
-        SceneManager.LoadScene(1);
-        Debug.Log("Scene Loaded");
-    }
-
+   public void LoadNewScene(int index)
+   {
+       SceneManager.LoadScene(index);
+       Debug.Log("Scene Loaded: " + index);
+   }
 }
