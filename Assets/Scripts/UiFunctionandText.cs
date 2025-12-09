@@ -8,7 +8,8 @@ public class UiFunctionandText : MonoBehaviour
     public TMP_Text infoText1;
     public TMP_Text infoText2;
     public Image background;
-    public RawImage arrow;
+    public RawImage arrow1;
+    public RawImage arrow2;
     
 
     void Start()
@@ -22,7 +23,8 @@ public class UiFunctionandText : MonoBehaviour
         infoText2.gameObject.SetActive(true);
         hideBtn.gameObject.SetActive(true);
         background.gameObject.SetActive(true);
-        arrow.gameObject.SetActive(true);
+        arrow1.gameObject.SetActive(true);
+        arrow2.gameObject.SetActive(true);
     }
 
     void HideAllUI()
@@ -31,6 +33,7 @@ public class UiFunctionandText : MonoBehaviour
         infoText1.gameObject.SetActive(false);
         infoText2.gameObject.SetActive(false);
         background.gameObject.SetActive(false);
-         arrow.gameObject.SetActive(false);
+        arrow1.gameObject.SetActive(false);
+        arrow2.gameObject.SetActive(false);
     }
 }
