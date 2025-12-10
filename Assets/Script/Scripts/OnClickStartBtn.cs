@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using UnityEditor.Animations;
+using UnityEngine.Animations;
 
 
 public class OnClickStartBtn : MonoBehaviour

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4fd62bf8832f5b84bb5b48e5382937df
+timeCreated: 1520575782
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115488
+  packageName: Quick Outline
+  packageVersion: 1.1
+  assetPath: Assets/QuickOutline/Resources/Shaders/OutlineFill.shader
+  uploadId: 485303
