@@ -6,14 +6,53 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start scene.unity
+    guid: c1fb5698b2c10da4396d783a67a5bb2b
+  - enabled: 1
+    path: Assets/Scenes/User Info.unity
+    guid: 182bab2a3853ae5418e502b28ccb0173
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 9c2191769e0c78f4f9ed2eefc2dbd3ba
+  - enabled: 1
+    path: Assets/Scenes/Introduction page.unity
+    guid: 212278864cb86a2409c893cc1cf1fb6f
+  - enabled: 1
+    path: Assets/Scenes/Anatomy.unity
+    guid: 6f49b581b3ab7df479b3a0f8f004a4dc
+  - enabled: 1
+    path: Assets/Scenes/Incisors.unity
+    guid: 01dc8ff7b4b30fc46a738dbc9ae16db1
+  - enabled: 1
+    path: Assets/Scenes/Canine.unity
+    guid: cbff913b882d08743bc97e83a9542752
+  - enabled: 1
+    path: Assets/Scenes/Premolars.unity
+    guid: 1647962b0cd48684fb9590ead0dd729d
+  - enabled: 1
+    path: Assets/Scenes/Molars.unity
+    guid: 4366b3b92af68f140b7d60593f652552
+  - enabled: 1
+    path: Assets/Scenes/Gums.unity
+    guid: 4e2e07ce1079aaa4ea9b164849c3d3c8
+  - enabled: 1
     path: Assets/Scenes/Animation 00.unity
-    guid: 83f9fa2369e10f54f8f939bb29ed0e5f
+    guid: ce7f704d0f502414aab2d7d8903ca2d6
   - enabled: 1
     path: Assets/Scenes/Animations01.unity
     guid: 6d84a8784702f694b8de84162f9e818d
   - enabled: 1
     path: Assets/Scenes/Animation 02.unity
     guid: 2632a02f3356e7e4b8c49d653230f749
+  - enabled: 1
+    path: Assets/Scenes/Knowledge Scene.unity
+    guid: a5989a1b7358e0546a8954023358cfb9
+  - enabled: 1
+    path: Assets/Scenes/Quiz Scene.unity
+    guid: 0d4427d94cb9fee4c9babf512548849f
+  - enabled: 1
+    path: Assets/Scenes/drag scene ui.unity
+    guid: 9b602b040b0264941a6862037ebbed20
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
