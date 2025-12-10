@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToggleHighlightOnObj : MonoBehaviour
+public class YunaToggleHighlightOnObj : MonoBehaviour
 {
     public bool isClicked = false;
     public GameObject myManagerObj;

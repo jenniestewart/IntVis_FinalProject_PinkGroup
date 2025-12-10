@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ManageGameObjectList : MonoBehaviour
+public class YunaManageGameObjectList : MonoBehaviour
 {   
     public List<GameObject> myObjList = new List<GameObject>();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
