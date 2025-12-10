@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class UiFunctionandText : MonoBehaviour
+public class YunaUiFunctionandText : MonoBehaviour
 {
     public Button hideBtn;
     public Button showDetailBt;
