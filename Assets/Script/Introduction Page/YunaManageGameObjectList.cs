@@ -32,8 +32,8 @@ public class YunaManageGameObjectList : MonoBehaviour
             for (int i = 0; i < transform.childCount; i++)
             {
                 transform.GetChild(i).gameObject.SetActive(true);
-                transform.GetChild(i).GetComponent<Outline>().enabled = false;
-                transform.GetChild(i).GetComponent<ToggleHighlightOnObj>().isClicked = false;
+                transform.GetChild(i).GetComponent<YunaOutline>().enabled = false;
+                transform.GetChild(i).GetComponent<YunaToggleHighlightOnObj>().isClicked = false;
             }
 
             myObjList.Clear();

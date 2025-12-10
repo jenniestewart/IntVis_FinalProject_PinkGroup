@@ -7,13 +7,13 @@ public class YunaToggleHighlightOnObj : MonoBehaviour
     public bool isClicked = false;
     public GameObject myManagerObj;
 
-    private ManageGameObjectList myManagerObjListScript;
+    private YunaManageGameObjectList myManagerObjListScript;
     void Start()
     {
-      transform.GetComponent<Outline>().enabled = false;
+      transform.GetComponent<YunaOutline>().enabled = false;
 
       myManagerObj = GameObject.Find("Manager"); 
-      myManagerObjListScript = myManagerObj.transform.GetComponent<ManageGameObjectList>();   
+      myManagerObjListScript = myManagerObj.transform.GetComponent<YunaManageGameObjectList>();   
     }
 
     // Update is called once per frame
@@ -30,12 +30,12 @@ public class YunaToggleHighlightOnObj : MonoBehaviour
         
         if (isClicked)
         {
-            transform.GetComponent<Outline>().enabled = true;
+            transform.GetComponent<YunaOutline>().enabled = true;
             myManagerObjListScript.myObjList.Add(transform.gameObject);
         }
         else
         {
-            transform.GetComponent<Outline>().enabled = false;
+            transform.GetComponent<YunaOutline>().enabled = false;
             myManagerObjListScript.myObjList.Remove(transform.gameObject);
         }
     }
@@ -43,7 +43,7 @@ public class YunaToggleHighlightOnObj : MonoBehaviour
     public void OnClickHideBt()
     {
         isClicked = false;
-        transform.GetComponent<Outline>().enabled = false;
+        transform.GetComponent<YunaOutline>().enabled = false;
         myManagerObjListScript.myObjList.Remove(transform.gameObject);
     }
 }

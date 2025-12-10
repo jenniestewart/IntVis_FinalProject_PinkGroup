@@ -33,7 +33,7 @@ public class ManageGameObjectList : MonoBehaviour
             {
                 transform.GetChild(i).gameObject.SetActive(true);
                 transform.GetChild(i).GetComponent<Outline>().enabled = false;
-                transform.GetChild(i).GetComponent<ToggleHighlightOnObj>().isClicked = false;
+                transform.GetChild(i).GetComponent<YunaToggleHighlightOnObj>().isClicked = false;
             }
 
             myObjList.Clear();
@@ -46,7 +46,7 @@ public class ManageGameObjectList : MonoBehaviour
          for (int i = 0; i < transform.childCount; i++)
             {
                 if (transform.gameObject != obj)
-                    transform.GetChild(i).GetComponent<ToggleHighlightOnObj>().OnClickHideBt();
+                    transform.GetChild(i).GetComponent<YunaToggleHighlightOnObj>().OnClickHideBt();
                 
             }
     }

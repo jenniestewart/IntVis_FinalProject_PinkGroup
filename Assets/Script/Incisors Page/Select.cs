@@ -10,7 +10,7 @@ public class Slect : MonoBehaviour
     private ManageGameObjectList myManagerObjListScript;
     void Start()
     {
-      transform.GetComponent<Outline>().enabled = false;
+      transform.GetComponent<YunaOutline>().enabled = false;
 
       myManagerObj = GameObject.Find("Manager"); 
       myManagerObjListScript = myManagerObj.transform.GetComponent<ManageGameObjectList>();   
@@ -30,13 +30,13 @@ public class Slect : MonoBehaviour
         
         if (isClicked)
         {
-            transform.GetComponent<Outline>().enabled = true;
+            transform.GetComponent<YunaOutline>().enabled = true;
             myManagerObjListScript.myObjList.Add(transform.gameObject);
             transform.parent.GetComponent<ManageTeethRotation>().enabled = true;
         }
         else
         {
-            transform.GetComponent<Outline>().enabled = false;
+            transform.GetComponent<YunaOutline>().enabled = false;
             myManagerObjListScript.myObjList.Remove(transform.gameObject);
             transform.parent.GetComponent<ManageTeethRotation>().enabled = false;
         }
